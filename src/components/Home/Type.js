@@ -9,6 +9,7 @@ function Type() {
           "Software Engineer",
           "Freelancer",
           "Full Stack Developer",
+          "Back End Laravel Developer",
         ],
         autoStart: true,
         loop: true,
