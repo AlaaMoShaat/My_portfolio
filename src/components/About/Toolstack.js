@@ -1,31 +1,28 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiSlack,
+  SiGithub,
   SiDiscord,
   SiWindows,
 } from "react-icons/si";
+import Icontitle from "./Icontitle";
+
+const tools = [
+  { icon: SiWindows, tooltip: "Windows - Operating System" },
+  { icon: SiVisualstudiocode, tooltip: "VS Code - Code Editor" },
+  { icon: SiPostman, tooltip: "Postman - API Testing Tool" },
+  { icon: SiGithub, tooltip: "GitHub - Version Control Hosting" },
+  { icon: SiDiscord, tooltip: "Discord - Communication Platform" },
+];
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiWindows />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDiscord />
-      </Col>
+      {tools.map((tool, index) => (
+        <Icontitle key={index} icon={tool.icon} tooltipText={tool.tooltip} />
+      ))}
     </Row>
   );
 }

@@ -24,16 +24,14 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Java. </b>
+                <b className="purple"> Php, Javascript and Java. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new&nbsp;
               <i>
                 <b className="purple">Web Sites </b> using{" "}
-                <b className="purple">
-                  Laravel {" "}
-                </b>
+                <b className="purple">Laravel </b>
                 mostly
               </i>
               <br />
