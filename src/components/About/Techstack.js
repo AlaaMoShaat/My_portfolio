@@ -1,7 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 
-import { DiJavascript1, DiGit, DiJava } from "react-icons/di";
+import { DiJavascript1, DiGit, DiJava, DiNodejs } from "react-icons/di";
 import {
   SiLaravel,
   SiPhp,
@@ -19,6 +19,7 @@ const techStack = [
   { icon: SiLaravel, tooltip: "Laravel - PHP Framework for Web Artisans" },
   { icon: SiLivewire, tooltip: "Livewire - Full-stack framework for Laravel" },
   { icon: DiJavascript1, tooltip: "JavaScript - Frontend scripting language" },
+  { icon: DiNodejs, tooltip: "Node.js - Runtime Environment" },
   { icon: DiGit, tooltip: "Git - Version control system" },
   { icon: DiJava, tooltip: "Java - Object-oriented programming language" },
   { icon: SiHtml5, tooltip: "HTML5 - Standard markup language" },

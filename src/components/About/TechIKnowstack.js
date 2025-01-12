@@ -1,7 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
-import { DiReact, DiNodejs, DiMongodb, DiPython } from "react-icons/di";
+import { DiReact, DiMongodb, DiPython } from "react-icons/di";
 import {
   SiGulp,
   SiPug,
@@ -15,7 +15,7 @@ import Icontitle from "./Icontitle";
 
 const techStack = [
   { icon: CgCPlusPlus, tooltip: "C++ - Programming Language" },
-  { icon: DiNodejs, tooltip: "Node.js - Runtime Environment" },
+  { icon: DiPython, tooltip: "Python - Programming Language" },
   { icon: DiReact, tooltip: "React - JavaScript Library" },
   { icon: SiVuedotjs, tooltip: "Vue.js - JavaScript Framework" },
   { icon: DiMongodb, tooltip: "MongoDB - NoSQL Database" },
@@ -24,7 +24,6 @@ const techStack = [
   { icon: SiTypescript, tooltip: "TypeScript - Superset of JavaScript" },
   { icon: SiNextdotjs, tooltip: "Next.js - React Framework" },
   { icon: SiPostgresql, tooltip: "PostgreSQL - SQL Database" },
-  { icon: DiPython, tooltip: "Python - Programming Language" },
 ];
 
 function TechIKnowstack() {
