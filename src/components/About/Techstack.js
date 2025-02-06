@@ -19,6 +19,7 @@ const techStack = [
   { icon: SiLaravel, tooltip: "Laravel - PHP Framework for Web Artisans" },
   { icon: SiLivewire, tooltip: "Livewire - Full-stack framework for Laravel" },
   { icon: DiJavascript1, tooltip: "JavaScript - Frontend scripting language" },
+  { icon: SiJquery, tooltip: "jQuery - JavaScript library" },
   { icon: DiNodejs, tooltip: "Node.js - Runtime Environment" },
   { icon: DiGit, tooltip: "Git - Version control system" },
   { icon: DiJava, tooltip: "Java - Object-oriented programming language" },
@@ -26,7 +27,6 @@ const techStack = [
   { icon: SiBootstrap, tooltip: "Bootstrap - CSS framework" },
   { icon: SiCss3, tooltip: "CSS3 - Cascading Style Sheets" },
   { icon: SiSass, tooltip: "Sass - CSS preprocessor" },
-  { icon: SiJquery, tooltip: "jQuery - JavaScript library" },
 ];
 
 function Techstack() {
